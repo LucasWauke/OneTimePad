@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OTP</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="otp.css">
+	<script type="text/javascript" src="otp.js"></script>
+</head>
+<body>
+	<h1>One Time Pad</h1>
+	<div class="conteudo">
+		<p class="paragrafo">Mensagem</p>
+		<div class="input">
+			<textarea class="campo" id="mensagem"></textarea> 
+			<span id="tamanho-mensagem"></span>
+		</div>
+		<p class="paragrafo">Chave</p>
+		<div class="input">
+			<textarea type="text" class="campo" id="chave"></textarea>
+			<span id="tamanho-chave"></span>
+		</div>
+		<p class="paragrafo">Texto criptografado</p>		
+		<textarea type="text" class="campo" id="cripto"></textarea>
+		<button id="criptografar">criptografar</button>
+		<p class="paragrafo">Texto descriptografado</p>
+		<textarea type="text" class="campo" id="descripto"></textarea>
+		<button id="descriptografar">descriptografar</button>
+	</div>
+	
+</body>
+</html>
